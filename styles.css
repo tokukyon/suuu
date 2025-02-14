@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure {
+    margin: 10px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+figure:hover, figure:focus {
+    transform: scale(1.1);
+    border-color: #333;
+}
+figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+}
